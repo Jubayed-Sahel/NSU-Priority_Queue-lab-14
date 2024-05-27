@@ -51,7 +51,7 @@ int main() {
     cout << value << endl;
 
 
-    // Second Problem
+    // Second Problem                                // 5 3 2 1 7 4 2
     int numberOfBags, minutes, total = 0;
     cin >> numberOfBags >> minutes;
 
@@ -60,12 +60,12 @@ int main() {
     for (int i = 0; i < numberOfBags; i++) {
         int temp;
         cin >> temp;
-        bagsOfCandies.Enqueue(temp);
+        bagsOfCandies.Enqueue(temp);              // 2 1 7 4 2   --> 2 2 2 1 1 (FIFO)-As Queue
     }
 
-    for (int i = minutes; i > 0; i--) {
+    for (int i = minutes; i > 0; i--) {          // 1st min : 7   --  2nd min : 4  -- 1 min : 3
         bagsOfCandies.Dequeue(value);
-        total += value;
+        total += value;                          // tot = 7+4+3 = 14
         bagsOfCandies.Enqueue(value / 2);
     }
 

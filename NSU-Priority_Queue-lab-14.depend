@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1716825432 source:d:\codeblocks\nsu-priority_queue-lab-14\main.cpp
+	<iostream>
+	"pqtype.cpp"
+
+1716825433 d:\codeblocks\nsu-priority_queue-lab-14\pqtype.cpp
+	"pqtype.h"
+
+1716825452 d:\codeblocks\nsu-priority_queue-lab-14\pqtype.h
+	"heaptype.h"
+	"heaptype.cpp"
+
+1716825433 d:\codeblocks\nsu-priority_queue-lab-14\heaptype.h
+
+1716825433 d:\codeblocks\nsu-priority_queue-lab-14\heaptype.cpp
+	"heaptype.h"
+
